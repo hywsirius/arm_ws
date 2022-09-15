@@ -1,0 +1,7 @@
+{
+  "package_name": "control_interfaces",
+  "non_idl_tuples": [
+    "/home/robosight/workspace/arm_ws/src/control_interfaces:msg/PositionCommand.msg",
+    "/home/robosight/workspace/arm_ws/src/control_interfaces:msg/VelocityCommand.msg"
+  ]
+}

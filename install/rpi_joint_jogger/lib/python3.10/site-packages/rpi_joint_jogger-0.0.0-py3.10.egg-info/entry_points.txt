@@ -1,0 +1,3 @@
+[console_scripts]
+rpi_joint_jogger_node = rpi_joint_jogger.rpi_joint_jogger_node:main
+

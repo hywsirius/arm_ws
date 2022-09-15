@@ -1,0 +1,3 @@
+[console_scripts]
+simple_robot_driver_node = simple_robot_driver.simple_robot_driver_node:main
+

@@ -1,0 +1,372 @@
+[0.197s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.197s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f33e6df3a00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f33e6df3a00>>)
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.242s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robosight/workspace/arm_ws'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_interfaces) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_interfaces) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_interfaces) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_interfaces) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control_interfaces' with type 'ros.ament_cmake' and name 'control_interfaces'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_kr6_support) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_kr6_support) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_kr6_support) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_kr6_support) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_kr6_support) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kuka_kr6_support' with type 'ros.ament_cmake' and name 'kuka_kr6_support'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_resources) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_resources) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_resources) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_resources) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_resources) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kuka_resources' with type 'ros.ament_cmake' and name 'kuka_resources'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rpi_joint_jogger) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rpi_joint_jogger) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rpi_joint_jogger) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rpi_joint_jogger) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rpi_joint_jogger) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rpi_joint_jogger' with type 'ros.ament_python' and name 'rpi_joint_jogger'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_controller) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_controller) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_controller) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_controller) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_controller' with type 'ros.ament_python' and name 'simple_controller'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_driver) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_driver) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_driver) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_driver) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_robot_driver' with type 'ros.ament_python' and name 'simple_robot_driver'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_keyboard_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_keyboard_controller) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_keyboard_controller) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_keyboard_controller) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_keyboard_controller) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_robot_keyboard_controller' with type 'ros.ament_python' and name 'simple_robot_keyboard_controller'
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'control_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'control_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'control_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'control_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'control_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'control_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'control_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'control_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'control_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.292s] DEBUG:colcon.colcon_core.verb:Building package 'control_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosight/workspace/arm_ws/build/control_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosight/workspace/arm_ws/install/control_interfaces', 'merge_install': False, 'path': '/home/robosight/workspace/arm_ws/src/control_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'kuka_kr6_support' build argument 'cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'kuka_kr6_support' build argument 'cmake_target' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'kuka_kr6_support' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'kuka_kr6_support' build argument 'cmake_clean_cache' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'kuka_kr6_support' build argument 'cmake_clean_first' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'kuka_kr6_support' build argument 'cmake_force_configure' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'kuka_kr6_support' build argument 'ament_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'kuka_kr6_support' build argument 'catkin_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'kuka_kr6_support' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.293s] DEBUG:colcon.colcon_core.verb:Building package 'kuka_kr6_support' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosight/workspace/arm_ws/build/kuka_kr6_support', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosight/workspace/arm_ws/install/kuka_kr6_support', 'merge_install': False, 'path': '/home/robosight/workspace/arm_ws/src/kuka_kr6_support', 'symlink_install': False, 'test_result_base': None}
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'kuka_resources' build argument 'cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'kuka_resources' build argument 'cmake_target' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'kuka_resources' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'kuka_resources' build argument 'cmake_clean_cache' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'kuka_resources' build argument 'cmake_clean_first' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'kuka_resources' build argument 'cmake_force_configure' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'kuka_resources' build argument 'ament_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'kuka_resources' build argument 'catkin_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'kuka_resources' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.295s] DEBUG:colcon.colcon_core.verb:Building package 'kuka_resources' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosight/workspace/arm_ws/build/kuka_resources', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosight/workspace/arm_ws/install/kuka_resources', 'merge_install': False, 'path': '/home/robosight/workspace/arm_ws/src/kuka_resources', 'symlink_install': False, 'test_result_base': None}
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'rpi_joint_jogger' build argument 'cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'rpi_joint_jogger' build argument 'cmake_target' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'rpi_joint_jogger' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'rpi_joint_jogger' build argument 'cmake_clean_cache' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'rpi_joint_jogger' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'rpi_joint_jogger' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'rpi_joint_jogger' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'rpi_joint_jogger' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'rpi_joint_jogger' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'rpi_joint_jogger' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosight/workspace/arm_ws/build/rpi_joint_jogger', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosight/workspace/arm_ws/install/rpi_joint_jogger', 'merge_install': False, 'path': '/home/robosight/workspace/arm_ws/src/rpi_joint_jogger', 'symlink_install': False, 'test_result_base': None}
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_keyboard_controller' build argument 'cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_keyboard_controller' build argument 'cmake_target' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_keyboard_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_keyboard_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_keyboard_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_keyboard_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_keyboard_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_keyboard_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_keyboard_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'simple_robot_keyboard_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosight/workspace/arm_ws/build/simple_robot_keyboard_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller', 'merge_install': False, 'path': '/home/robosight/workspace/arm_ws/src/simple_robot_keyboard_controller', 'symlink_install': False, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'simple_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosight/workspace/arm_ws/build/simple_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosight/workspace/arm_ws/install/simple_controller', 'merge_install': False, 'path': '/home/robosight/workspace/arm_ws/src/simple_controller', 'symlink_install': False, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_driver' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_driver' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'simple_robot_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosight/workspace/arm_ws/build/simple_robot_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosight/workspace/arm_ws/install/simple_robot_driver', 'merge_install': False, 'path': '/home/robosight/workspace/arm_ws/src/simple_robot_driver', 'symlink_install': False, 'test_result_base': None}
+[0.300s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.302s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'control_interfaces'
+[0.302s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robosight/workspace/arm_ws/src/control_interfaces' with build type 'ament_cmake'
+[0.302s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robosight/workspace/arm_ws/src/control_interfaces'
+[0.306s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosight/workspace/arm_ws/build/control_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robosight/workspace/arm_ws/build/control_interfaces -- -j8 -l8
+[0.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosight/workspace/arm_ws/build/control_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robosight/workspace/arm_ws/build/control_interfaces -- -j8 -l8
+[0.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosight/workspace/arm_ws/build/control_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robosight/workspace/arm_ws/build/control_interfaces
+[0.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_interfaces)
+[0.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosight/workspace/arm_ws/build/control_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robosight/workspace/arm_ws/build/control_interfaces
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/control_interfaces' for CMake module files
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/control_interfaces' for CMake config files
+[0.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_interfaces', 'cmake_prefix_path')
+[0.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosight/workspace/arm_ws/install/control_interfaces/share/control_interfaces/hook/cmake_prefix_path.dsv'
+[0.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosight/workspace/arm_ws/install/control_interfaces/share/control_interfaces/hook/cmake_prefix_path.sh'
+[0.772s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/control_interfaces/lib'
+[0.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_interfaces', 'ld_library_path_lib')
+[0.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosight/workspace/arm_ws/install/control_interfaces/share/control_interfaces/hook/ld_library_path_lib.dsv'
+[0.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosight/workspace/arm_ws/install/control_interfaces/share/control_interfaces/hook/ld_library_path_lib.sh'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/control_interfaces/bin'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/control_interfaces/lib/pkgconfig/control_interfaces.pc'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/control_interfaces/lib/python3.10/site-packages'
+[0.775s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/control_interfaces/bin'
+[0.775s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosight/workspace/arm_ws/install/control_interfaces/share/control_interfaces/package.dsv'
+[0.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosight/workspace/arm_ws/install/control_interfaces/share/control_interfaces/package.sh'
+[0.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosight/workspace/arm_ws/install/control_interfaces/share/colcon-core/packages/control_interfaces)
+[0.822s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_interfaces)
+[0.824s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/control_interfaces' for CMake module files
+[0.824s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/control_interfaces' for CMake config files
+[0.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_interfaces', 'cmake_prefix_path')
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosight/workspace/arm_ws/install/control_interfaces/share/control_interfaces/hook/cmake_prefix_path.dsv'
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosight/workspace/arm_ws/install/control_interfaces/share/control_interfaces/hook/cmake_prefix_path.sh'
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/control_interfaces/lib'
+[0.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_interfaces', 'ld_library_path_lib')
+[0.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosight/workspace/arm_ws/install/control_interfaces/share/control_interfaces/hook/ld_library_path_lib.dsv'
+[0.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosight/workspace/arm_ws/install/control_interfaces/share/control_interfaces/hook/ld_library_path_lib.sh'
+[0.827s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/control_interfaces/bin'
+[0.827s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/control_interfaces/lib/pkgconfig/control_interfaces.pc'
+[0.828s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/control_interfaces/lib/python3.10/site-packages'
+[0.828s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/control_interfaces/bin'
+[0.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosight/workspace/arm_ws/install/control_interfaces/share/control_interfaces/package.dsv'
+[0.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosight/workspace/arm_ws/install/control_interfaces/share/control_interfaces/package.sh'
+[0.829s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosight/workspace/arm_ws/install/control_interfaces/share/colcon-core/packages/control_interfaces)
+[0.830s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'control_interfaces' finished with '0'
+[0.830s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'kuka_kr6_support'
+[0.830s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robosight/workspace/arm_ws/src/kuka_kr6_support' with build type 'ament_cmake'
+[0.830s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robosight/workspace/arm_ws/src/kuka_kr6_support'
+[0.831s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosight/workspace/arm_ws/build/kuka_kr6_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robosight/workspace/arm_ws/build/kuka_kr6_support -- -j8 -l8
+[0.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosight/workspace/arm_ws/build/kuka_kr6_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robosight/workspace/arm_ws/build/kuka_kr6_support -- -j8 -l8
+[0.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosight/workspace/arm_ws/build/kuka_kr6_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robosight/workspace/arm_ws/build/kuka_kr6_support
+[0.889s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuka_kr6_support)
+[0.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosight/workspace/arm_ws/build/kuka_kr6_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robosight/workspace/arm_ws/build/kuka_kr6_support
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_kr6_support' for CMake module files
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_kr6_support' for CMake config files
+[0.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuka_kr6_support', 'cmake_prefix_path')
+[0.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosight/workspace/arm_ws/install/kuka_kr6_support/share/kuka_kr6_support/hook/cmake_prefix_path.dsv'
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosight/workspace/arm_ws/install/kuka_kr6_support/share/kuka_kr6_support/hook/cmake_prefix_path.sh'
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_kr6_support/bin'
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_kr6_support/lib/pkgconfig/kuka_kr6_support.pc'
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_kr6_support/lib/python3.10/site-packages'
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_kr6_support/bin'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosight/workspace/arm_ws/install/kuka_kr6_support/share/kuka_kr6_support/package.dsv'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosight/workspace/arm_ws/install/kuka_kr6_support/share/kuka_kr6_support/package.sh'
+[0.895s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosight/workspace/arm_ws/install/kuka_kr6_support/share/colcon-core/packages/kuka_kr6_support)
+[0.910s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuka_kr6_support)
+[0.912s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_kr6_support' for CMake module files
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_kr6_support' for CMake config files
+[0.913s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuka_kr6_support', 'cmake_prefix_path')
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosight/workspace/arm_ws/install/kuka_kr6_support/share/kuka_kr6_support/hook/cmake_prefix_path.dsv'
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosight/workspace/arm_ws/install/kuka_kr6_support/share/kuka_kr6_support/hook/cmake_prefix_path.sh'
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_kr6_support/bin'
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_kr6_support/lib/pkgconfig/kuka_kr6_support.pc'
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_kr6_support/lib/python3.10/site-packages'
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_kr6_support/bin'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosight/workspace/arm_ws/install/kuka_kr6_support/share/kuka_kr6_support/package.dsv'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosight/workspace/arm_ws/install/kuka_kr6_support/share/kuka_kr6_support/package.sh'
+[0.917s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosight/workspace/arm_ws/install/kuka_kr6_support/share/colcon-core/packages/kuka_kr6_support)
+[0.917s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'kuka_kr6_support' finished with '0'
+[0.917s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'kuka_resources'
+[0.917s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robosight/workspace/arm_ws/src/kuka_resources' with build type 'ament_cmake'
+[0.918s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robosight/workspace/arm_ws/src/kuka_resources'
+[0.918s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosight/workspace/arm_ws/build/kuka_resources': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robosight/workspace/arm_ws/build/kuka_resources -- -j8 -l8
+[0.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosight/workspace/arm_ws/build/kuka_resources' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robosight/workspace/arm_ws/build/kuka_resources -- -j8 -l8
+[0.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosight/workspace/arm_ws/build/kuka_resources': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robosight/workspace/arm_ws/build/kuka_resources
+[0.981s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuka_resources)
+[0.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosight/workspace/arm_ws/build/kuka_resources' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robosight/workspace/arm_ws/build/kuka_resources
+[0.983s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_resources' for CMake module files
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_resources' for CMake config files
+[0.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuka_resources', 'cmake_prefix_path')
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosight/workspace/arm_ws/install/kuka_resources/share/kuka_resources/hook/cmake_prefix_path.dsv'
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosight/workspace/arm_ws/install/kuka_resources/share/kuka_resources/hook/cmake_prefix_path.sh'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_resources/bin'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_resources/lib/pkgconfig/kuka_resources.pc'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_resources/lib/python3.10/site-packages'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_resources/bin'
+[0.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosight/workspace/arm_ws/install/kuka_resources/share/kuka_resources/package.dsv'
+[0.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosight/workspace/arm_ws/install/kuka_resources/share/kuka_resources/package.sh'
+[0.988s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosight/workspace/arm_ws/install/kuka_resources/share/colcon-core/packages/kuka_resources)
+[1.004s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuka_resources)
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_resources' for CMake module files
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_resources' for CMake config files
+[1.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuka_resources', 'cmake_prefix_path')
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosight/workspace/arm_ws/install/kuka_resources/share/kuka_resources/hook/cmake_prefix_path.dsv'
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosight/workspace/arm_ws/install/kuka_resources/share/kuka_resources/hook/cmake_prefix_path.sh'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_resources/bin'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_resources/lib/pkgconfig/kuka_resources.pc'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_resources/lib/python3.10/site-packages'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/kuka_resources/bin'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosight/workspace/arm_ws/install/kuka_resources/share/kuka_resources/package.dsv'
+[1.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosight/workspace/arm_ws/install/kuka_resources/share/kuka_resources/package.sh'
+[1.010s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosight/workspace/arm_ws/install/kuka_resources/share/colcon-core/packages/kuka_resources)
+[1.010s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'kuka_resources' finished with '0'
+[1.010s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'rpi_joint_jogger'
+[1.010s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robosight/workspace/arm_ws/src/rpi_joint_jogger' with build type 'ament_python'
+[1.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('rpi_joint_jogger', 'ament_prefix_path')
+[1.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosight/workspace/arm_ws/install/rpi_joint_jogger/share/rpi_joint_jogger/hook/ament_prefix_path.dsv'
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosight/workspace/arm_ws/install/rpi_joint_jogger/share/rpi_joint_jogger/hook/ament_prefix_path.sh'
+[1.013s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.234s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robosight/workspace/arm_ws/src/rpi_joint_jogger'
+[1.235s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosight/workspace/arm_ws/src/rpi_joint_jogger': PYTHONPATH=/home/robosight/workspace/arm_ws/install/rpi_joint_jogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rpi_joint_jogger build --build-base /home/robosight/workspace/arm_ws/build/rpi_joint_jogger/build install --prefix /home/robosight/workspace/arm_ws/install/rpi_joint_jogger --record /home/robosight/workspace/arm_ws/build/rpi_joint_jogger/install.log --single-version-externally-managed
+[1.817s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/rpi_joint_jogger' for CMake module files
+[1.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosight/workspace/arm_ws/src/rpi_joint_jogger' returned '0': PYTHONPATH=/home/robosight/workspace/arm_ws/install/rpi_joint_jogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rpi_joint_jogger build --build-base /home/robosight/workspace/arm_ws/build/rpi_joint_jogger/build install --prefix /home/robosight/workspace/arm_ws/install/rpi_joint_jogger --record /home/robosight/workspace/arm_ws/build/rpi_joint_jogger/install.log --single-version-externally-managed
+[1.818s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/rpi_joint_jogger' for CMake config files
+[1.818s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/rpi_joint_jogger/lib'
+[1.818s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/rpi_joint_jogger/bin'
+[1.819s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/rpi_joint_jogger/lib/pkgconfig/rpi_joint_jogger.pc'
+[1.819s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/rpi_joint_jogger/lib/python3.10/site-packages'
+[1.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('rpi_joint_jogger', 'pythonpath')
+[1.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosight/workspace/arm_ws/install/rpi_joint_jogger/share/rpi_joint_jogger/hook/pythonpath.dsv'
+[1.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosight/workspace/arm_ws/install/rpi_joint_jogger/share/rpi_joint_jogger/hook/pythonpath.sh'
+[1.821s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/rpi_joint_jogger/bin'
+[1.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rpi_joint_jogger)
+[1.822s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosight/workspace/arm_ws/install/rpi_joint_jogger/share/rpi_joint_jogger/package.dsv'
+[1.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosight/workspace/arm_ws/install/rpi_joint_jogger/share/rpi_joint_jogger/package.sh'
+[1.822s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosight/workspace/arm_ws/install/rpi_joint_jogger/share/colcon-core/packages/rpi_joint_jogger)
+[1.823s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'rpi_joint_jogger' finished with '0'
+[1.823s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'simple_robot_keyboard_controller'
+[1.823s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robosight/workspace/arm_ws/src/simple_robot_keyboard_controller' with build type 'ament_python'
+[1.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_robot_keyboard_controller', 'ament_prefix_path')
+[1.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller/share/simple_robot_keyboard_controller/hook/ament_prefix_path.dsv'
+[1.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller/share/simple_robot_keyboard_controller/hook/ament_prefix_path.sh'
+[1.825s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.048s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robosight/workspace/arm_ws/src/simple_robot_keyboard_controller'
+[2.049s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosight/workspace/arm_ws/src/simple_robot_keyboard_controller': PYTHONPATH=/home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simple_robot_keyboard_controller build --build-base /home/robosight/workspace/arm_ws/build/simple_robot_keyboard_controller/build install --prefix /home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller --record /home/robosight/workspace/arm_ws/build/simple_robot_keyboard_controller/install.log --single-version-externally-managed
+[2.595s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller' for CMake module files
+[2.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosight/workspace/arm_ws/src/simple_robot_keyboard_controller' returned '0': PYTHONPATH=/home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simple_robot_keyboard_controller build --build-base /home/robosight/workspace/arm_ws/build/simple_robot_keyboard_controller/build install --prefix /home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller --record /home/robosight/workspace/arm_ws/build/simple_robot_keyboard_controller/install.log --single-version-externally-managed
+[2.596s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller' for CMake config files
+[2.596s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller/lib'
+[2.596s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller/bin'
+[2.596s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller/lib/pkgconfig/simple_robot_keyboard_controller.pc'
+[2.597s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller/lib/python3.10/site-packages'
+[2.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_robot_keyboard_controller', 'pythonpath')
+[2.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller/share/simple_robot_keyboard_controller/hook/pythonpath.dsv'
+[2.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller/share/simple_robot_keyboard_controller/hook/pythonpath.sh'
+[2.598s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller/bin'
+[2.598s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_robot_keyboard_controller)
+[2.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller/share/simple_robot_keyboard_controller/package.dsv'
+[2.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller/share/simple_robot_keyboard_controller/package.sh'
+[2.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosight/workspace/arm_ws/install/simple_robot_keyboard_controller/share/colcon-core/packages/simple_robot_keyboard_controller)
+[2.600s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'simple_robot_keyboard_controller' finished with '0'
+[2.600s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'simple_controller'
+[2.600s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robosight/workspace/arm_ws/src/simple_controller' with build type 'ament_python'
+[2.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_controller', 'ament_prefix_path')
+[2.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosight/workspace/arm_ws/install/simple_controller/share/simple_controller/hook/ament_prefix_path.dsv'
+[2.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosight/workspace/arm_ws/install/simple_controller/share/simple_controller/hook/ament_prefix_path.sh'
+[2.603s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.831s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robosight/workspace/arm_ws/src/simple_controller'
+[2.832s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosight/workspace/arm_ws/src/simple_controller': AMENT_PREFIX_PATH=/home/robosight/workspace/arm_ws/install/control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robosight/workspace/arm_ws/install/control_interfaces LD_LIBRARY_PATH=/home/robosight/workspace/arm_ws/install/control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robosight/workspace/arm_ws/install/simple_controller/lib/python3.10/site-packages:/home/robosight/workspace/arm_ws/install/control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simple_controller build --build-base /home/robosight/workspace/arm_ws/build/simple_controller/build install --prefix /home/robosight/workspace/arm_ws/install/simple_controller --record /home/robosight/workspace/arm_ws/build/simple_controller/install.log --single-version-externally-managed
+[3.377s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_controller' for CMake module files
+[3.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosight/workspace/arm_ws/src/simple_controller' returned '0': AMENT_PREFIX_PATH=/home/robosight/workspace/arm_ws/install/control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robosight/workspace/arm_ws/install/control_interfaces LD_LIBRARY_PATH=/home/robosight/workspace/arm_ws/install/control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robosight/workspace/arm_ws/install/simple_controller/lib/python3.10/site-packages:/home/robosight/workspace/arm_ws/install/control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simple_controller build --build-base /home/robosight/workspace/arm_ws/build/simple_controller/build install --prefix /home/robosight/workspace/arm_ws/install/simple_controller --record /home/robosight/workspace/arm_ws/build/simple_controller/install.log --single-version-externally-managed
+[3.378s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_controller' for CMake config files
+[3.378s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_controller/lib'
+[3.378s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_controller/bin'
+[3.378s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_controller/lib/pkgconfig/simple_controller.pc'
+[3.379s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_controller/lib/python3.10/site-packages'
+[3.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_controller', 'pythonpath')
+[3.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosight/workspace/arm_ws/install/simple_controller/share/simple_controller/hook/pythonpath.dsv'
+[3.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosight/workspace/arm_ws/install/simple_controller/share/simple_controller/hook/pythonpath.sh'
+[3.381s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_controller/bin'
+[3.381s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_controller)
+[3.382s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosight/workspace/arm_ws/install/simple_controller/share/simple_controller/package.dsv'
+[3.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosight/workspace/arm_ws/install/simple_controller/share/simple_controller/package.sh'
+[3.383s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosight/workspace/arm_ws/install/simple_controller/share/colcon-core/packages/simple_controller)
+[3.383s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'simple_controller' finished with '0'
+[3.383s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'simple_robot_driver'
+[3.383s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robosight/workspace/arm_ws/src/simple_robot_driver' with build type 'ament_python'
+[3.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_robot_driver', 'ament_prefix_path')
+[3.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosight/workspace/arm_ws/install/simple_robot_driver/share/simple_robot_driver/hook/ament_prefix_path.dsv'
+[3.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosight/workspace/arm_ws/install/simple_robot_driver/share/simple_robot_driver/hook/ament_prefix_path.sh'
+[3.385s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.613s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robosight/workspace/arm_ws/src/simple_robot_driver'
+[3.614s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosight/workspace/arm_ws/src/simple_robot_driver': AMENT_PREFIX_PATH=/home/robosight/workspace/arm_ws/install/control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robosight/workspace/arm_ws/install/control_interfaces LD_LIBRARY_PATH=/home/robosight/workspace/arm_ws/install/control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robosight/workspace/arm_ws/install/simple_robot_driver/lib/python3.10/site-packages:/home/robosight/workspace/arm_ws/install/control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simple_robot_driver build --build-base /home/robosight/workspace/arm_ws/build/simple_robot_driver/build install --prefix /home/robosight/workspace/arm_ws/install/simple_robot_driver --record /home/robosight/workspace/arm_ws/build/simple_robot_driver/install.log --single-version-externally-managed
+[4.154s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_robot_driver' for CMake module files
+[4.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosight/workspace/arm_ws/src/simple_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/robosight/workspace/arm_ws/install/control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robosight/workspace/arm_ws/install/control_interfaces LD_LIBRARY_PATH=/home/robosight/workspace/arm_ws/install/control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robosight/workspace/arm_ws/install/simple_robot_driver/lib/python3.10/site-packages:/home/robosight/workspace/arm_ws/install/control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simple_robot_driver build --build-base /home/robosight/workspace/arm_ws/build/simple_robot_driver/build install --prefix /home/robosight/workspace/arm_ws/install/simple_robot_driver --record /home/robosight/workspace/arm_ws/build/simple_robot_driver/install.log --single-version-externally-managed
+[4.155s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_robot_driver' for CMake config files
+[4.155s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_robot_driver/lib'
+[4.155s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_robot_driver/bin'
+[4.155s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_robot_driver/lib/pkgconfig/simple_robot_driver.pc'
+[4.156s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_robot_driver/lib/python3.10/site-packages'
+[4.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_robot_driver', 'pythonpath')
+[4.156s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosight/workspace/arm_ws/install/simple_robot_driver/share/simple_robot_driver/hook/pythonpath.dsv'
+[4.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosight/workspace/arm_ws/install/simple_robot_driver/share/simple_robot_driver/hook/pythonpath.sh'
+[4.157s] Level 1:colcon.colcon_core.environment:checking '/home/robosight/workspace/arm_ws/install/simple_robot_driver/bin'
+[4.157s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_robot_driver)
+[4.158s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosight/workspace/arm_ws/install/simple_robot_driver/share/simple_robot_driver/package.dsv'
+[4.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosight/workspace/arm_ws/install/simple_robot_driver/share/simple_robot_driver/package.sh'
+[4.159s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosight/workspace/arm_ws/install/simple_robot_driver/share/colcon-core/packages/simple_robot_driver)
+[4.159s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'simple_robot_driver' finished with '0'
+[4.159s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[4.159s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[4.160s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.160s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.161s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robosight/workspace/arm_ws/install/local_setup.sh'
+[4.161s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robosight/workspace/arm_ws/install/_local_setup_util_sh.py'
+[4.163s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robosight/workspace/arm_ws/install/setup.sh'
